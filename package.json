@@ -3,13 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://<tên-user>.github.io/<tên-repo>",  
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "vite build",        
     "deploy": "gh-pages -d dist"
   },
+
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
@@ -30,6 +34,4 @@
     "tailwindcss": "^3.4.3",
     "vite": "^7.1.2"
   }
-  
 }
-
